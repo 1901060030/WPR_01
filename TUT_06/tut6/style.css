@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap");
+
+/* General setup */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 1000px;
+	max-width: 1400px;
+	font-family: "Roboto", sans-serif;
+	line-height: 1.4;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+/* Layout */
+
+section {
+	float: left;
+	width: 50%
+}
+
+aside {
+	float: left;
+	width: 30%;
+}
+
+nav {
+	float: left;
+	width: 20%;
+}
+
+footer {
+	clear: both;
+}
+
+header,
+section,
+aside,
+nav,
+footer {
+	padding: 20px;
+}
+
+/* header and footer */
+
+header,
+footer {
+	border-top: 5px solid #a66;
+	border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* header styles */
+h1,
+h2,
+h3,
+header {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+header h1 {
+	font-size: 3.6rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+/* paragraph and list styles */
+ul {
+	list-style: square outside none;
+}
+
+ol {
+	list-style: lower-greek outside none;
+}
+
+p,
+ol,
+ul {
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+li,
+p {
+	line-height: 1.4;
+}
+
+h2 + p {
+	text-indent: 20px;
+}
+
+/* link styling */
+a {
+	outline: none;
+}
+
+a:link {
+	color: #a66;
+}
+
+a:visited {
+	color: #d66;
+}
+
+a:focus {
+	color: #b88;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c44;
+	text-decoration: none;
+}
+
+a:active {
+	color: #d66;
+	background: #ccc;
+}
+
+a[href*="http"] {
+	background: url("https://mdn.github.io/learning-area/css/styling-text/typesetting-a-homepage-start/external-link-52.png")
+		no-repeat 100% 0;
+	background-size: 16px 16px;
+	padding-right: 19px;
+}
+
+/* navigation styling */
+nav ul {
+	padding: 0;
+	width: 100%;
+}
+
+nav li {
+	display: block;
+	font-size: 2rem;
+}
+
+nav a {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	text-align: center;
+	line-height: 3;
+}
+
+nav a:link,
+nav a:visited,
+nav a:focus {
+	color: #fff;
+	font-weight: 700;
+	background: #a66;
+	width: 100%;
+	margin-bottom: 1.5rem;
+}
+
+nav a:hover {
+	background: #a66;
+    opacity: 0.8;
+}
+
+nav a:active {
+	background: #ccc;
+}
